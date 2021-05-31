@@ -1,0 +1,123 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a:visited{
+  color: unset;
+}
+a:hover {
+  cursor: grab;
+}
+#return-to-main{
+  display: none;
+}
+.main-content{
+  color: red;
+}
+header {
+  font-size: larger;
+  color: rgb(255, 222, 38);
+  font-style: oblique;
+  width: fit-content;
+  margin: auto;
+  position: block;
+  text-align: center;
+}
+body {
+  position:fixed center;
+  background: no-repeat top/100% url("/img/main-spongebob-background.png");
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* *{
+  border: black solid 2px;
+} */
+img {
+  width: auto;
+}
+.my-buttons{
+  font-size: 40px;
+  position: fixed;
+  top: 45%;
+  left: 45%;
+}
+#characters {
+  border: 3px solid blue;
+  text-align: center;
+  display: flex;
+  flex-wrap: none;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.main-content{
+
+  font-size: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.player-card:hover{
+  zoom: 110%;
+}
+.player-card, .player-card img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.player-card{
+  font-size: 2rem;
+  text-align: center;
+}
+.character-container {
+  width: 25rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.center-on-screen{
+  font-size: 5vh;
+  position: fixed;
+  top: 40%;
+  left: 45%;
+  color: white;
+  background-color: black;
+}
+.points {
+  font-size: 1.25;
+}
+.headline {
+  color: white;
+  text-decoration: underline;
+  font-family: "Fjalla One", sans-serif;
+  text-align: center;
+  max-height: 20vh;
+  display: flex;
+}
+/* character pages */
+.headline-text {
+  margin-left: auto;
+  margin-right: auto;
+  display: inherit;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.text-white{
+  color: white;
+}
+
+.headline-text img {
+  max-width: 15vh;
+}
+
+button {
+  color: yellow;
+  background-color: purple;
+  border: 5px solid greenyellow;
+}
