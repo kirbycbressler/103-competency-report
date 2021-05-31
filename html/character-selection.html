@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Character selection</title>
+  </head>
+
+  <body>
+    <header class="headline">
+      <div class="headline-text">
+        <p><img src="/img/spongebob-character.gif" alt="spongebobs moves" /></p>
+        <div ><h1>CHARACTER SELECTION</h1>
+        <p style="text-align: center">Select Your Champ..</p>
+        <br />
+      </div>
+        <p><img src="/img/squidward-character.gif" /></p>
+      </div>
+    </header>
+    <main class="container text-white">
+      <!-- separate own character and opposing characters with id instead of new div (also an option) -->
+      <div class="player-card">
+        <p class="character"> 
+            <a href="fight.html" onclick="characterSelection('Spongebob')">
+            Spongebob<img src="/img/spongebob-character2.gif"
+            />
+          </a>
+            <p id="own-character-points" class="points">Health Points:100</p>
+          </p>
+        </div>
+      <div class="player-card">
+        <p class="character">
+          <a href="fight2.html" onclick="characterSelection('Squidward')"
+          >Squidward
+          <img
+          src="/img/squidward-main-selection.gif"
+          alt="squidward moves"
+          />
+          <p id="own-character-points" class="points">Health Points:100</p>
+        </a>
+      </p>
+    </div>
+  </div>
+</main>
+<section class="center-on-screen">
+  <p><i class="far fa-hand-point-left"></i>OR..?<i class="far fa-hand-point-right"></i></p>
+</section>
+<script src="../js/script.js"></script>
+
+</body>
+</html>
